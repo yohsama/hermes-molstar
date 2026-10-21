@@ -1,0 +1,17 @@
+name: hermes-molstar
+version: 1.0.0
+description: "Offline-first Mol* viewer for complete local PDB and mmCIF structures."
+author: "Hermes Mol* plugin contributors"
+kind: standalone
+manifest_version: 2
+api_version: 1
+license: MIT
+tags:
+  - molecular-visualization
+  - pdb
+  - mmcif
+config_schema:
+  allowed_roots:
+    type: list
+    default: []
+    description: "Absolute gateway workspace roots from which ::hermes-molstar may read structures. Empty denies all backend path reads."

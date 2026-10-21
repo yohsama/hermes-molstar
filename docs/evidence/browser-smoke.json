@@ -1,0 +1,71 @@
+{
+    "schema":  1,
+    "generatedAt":  "2026-10-21T17:31:44.3192075Z",
+    "command":  "npm run test:browser",
+    "passed":  true,
+    "playwrightCli":  "0.1.22",
+    "browserVersion":  "155.0.8059.40",
+    "userAgent":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "offline":  {
+                    "setBeforeViewerStart":  true,
+                    "viewerStartedOnline":  false,
+                    "navigatorOnlineAtEnd":  false,
+                    "httpResourcesAfterHarnessNavigation":  [
+
+                                                            ]
+                },
+    "pdb":  {
+                "requestId":  "dde68f31-8e10-43a0-b0ac-bedcdb4d3862",
+                "name":  "1CRN.pdb",
+                "format":  "pdb",
+                "atomCount":  327,
+                "modelCount":  1,
+                "structureCount":  1,
+                "canvasCount":  1
+            },
+    "mmcif":  {
+                  "requestId":  "cffdd67c-c49f-403a-b5b7-8a6c90ce9f45",
+                  "name":  "1CRN.cif",
+                  "format":  "mmcif",
+                  "atomCount":  327,
+                  "modelCount":  1,
+                  "structureCount":  1,
+                  "canvasCount":  1
+              },
+    "lifecycle":  {
+                      "loads":  2,
+                      "events":  [
+                                     "molstar.ready",
+                                     "molstar.loaded",
+                                     "molstar.loaded"
+                                 ],
+                      "iframeCount":  1
+                  },
+    "canvas":  {
+                   "width":  964,
+                   "height":  564,
+                   "clientWidth":  964,
+                   "clientHeight":  564,
+                   "webgl2":  true
+               },
+    "consoleErrors":  0,
+    "requestLog":  "1. [GET] http://127.0.0.1:4173/ =\u003e [200] OK",
+    "fixtures":  {
+                     "pdbSha256":  "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811",
+                     "mmcifSha256":  "23787562c427d7c1abe5420e86d5f1d0a6c7007dec1e8ce85645a6d69c32e8ba"
+                 },
+    "artifacts":  {
+                      "desktopPlugin":  {
+                                            "path":  "dist/hermes-molstar/desktop/plugin.js",
+                                            "bytes":  16683,
+                                            "sha256":  "f95ea8a3514a98189b946f90e18a8ccf0f371ac0707708cfbff96eddb23b82e1"
+                                        },
+                      "viewerDocument":  {
+                                             "path":  "dist/hermes-molstar/dashboard/viewer-document.json",
+                                             "bytes":  2041227,
+                                             "sha256":  "241a5fad9edde4ad454ff281dfa1aad80c320d165461e1898762e7b8de81dbba"
+                                         }
+                  },
+    "screenshot":  "output/playwright/smoke/molstar-offline-smoke.png",
+    "scope":  "Chromium browser harness; not Hermes Electron"
+}

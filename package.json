@@ -1,0 +1,24 @@
+{
+  "name": "hermes-molstar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first Mol* structure viewer plugin for Hermes Desktop",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:python": "python -m unittest -v tests/test_plugin_api.py",
+    "test:all": "npm run test && npm run test:python",
+    "test:browser": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/browser-smoke.ps1"
+  },
+  "dependencies": {
+    "molstar": "5.13.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "react-test-renderer": "19.3.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

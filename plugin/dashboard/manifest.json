@@ -1,0 +1,7 @@
+{
+  "name": "hermes-molstar",
+  "label": "Mol* Structure Viewer",
+  "description": "Authorized complete PDB/mmCIF reads for the Hermes Desktop Mol* viewer.",
+  "version": "1.0.0",
+  "api": "plugin_api.py"
+}
